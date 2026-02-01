@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { Github, Linkedin } from 'lucide-vue-next'
 
 
@@ -117,7 +116,7 @@ const projects: Project[] = [
     <section class="px-8 py-12 bg-neutral-100 dark:bg-neutral-800">
       <h3 class="font-bungee text-3xl font-bold mb-4">About Me</h3>
       <p class="max-w-3xl opacity-80">
-        Since 2018, I’ve been building web experiences as a software engineer, with a focus on front-end development. I thrive on creative projects and love turning designs into interactive, user-friendly applications. 
+        Experiened in both front and back end development, I’ve been building my experiences as a software engineer, with a focus on front-end development. I thrive on creative projects and love turning designs into interactive, user-friendly applications. 
         Outside of coding, I’m a strong advocate for women in STEM and believe in making technology accessible for everyone.
       </p>
     </section>
