@@ -50,7 +50,7 @@ const projects: Project[] = [
         <div class="flex items-center gap-4 py-3">
           <!-- GitHub -->
           <a
-            href="https://github.com/yourname"
+            href="https://github.com/millyhx"
             target="_blank"
             aria-label="GitHub"
             class="p-2 rounded-lg text-pink-500 transition transform hover:scale-110 hover:shadow-lg"
@@ -59,7 +59,7 @@ const projects: Project[] = [
           </a>
 
           <a
-            href="https://linkedin.com/in/yourname"
+            href="https://www.linkedin.com/in/melisa-o-0a9a3a15b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             target="_blank"
             aria-label="LinkedIn"
             class="p-2 rounded-lg text-pink-500 transition transform hover:scale-110 hover:shadow-lg"
