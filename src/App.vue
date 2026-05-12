@@ -69,13 +69,13 @@
                 View Projects
               </a>
 
-              <a
-                href="./assets/pdf/CV.pdf"
-                download
-                class="border border-blue-500 text-blue-500 px-6 py-3 rounded-full hover:bg-blue-50 transition"
-              >
-                Download CV
-              </a>
+            <a
+              :href="cvFile"
+              download
+              class="border border-blue-500 text-blue-500 px-6 py-3 rounded-full hover:bg-blue-50 transition"
+            >
+              Download CV
+            </a>
             </div>
           </div>
 
@@ -111,11 +111,12 @@
           </h3>
 
           <p class="text-gray-600 leading-relaxed mb-4">
-            I enjoy creating beautiful websites that are accessible to everyone. 
+            I enjoy creating beautiful websites that are accessible to everyone. I am a Software Engineer with a First-Class degree and around seven years of experience across software development, testing, and Agile teams.
           </p>
 
           <p class="text-gray-600 leading-relaxed">
-            My background is in Software Engineering, where I have 
+            I’ve worked closely with teams and stakeholders in fast-paced environments where attention to detail really matters.
+            I’m also an advocate for Women in STEM and passionate about supporting more inclusive and diverse spaces in tech.
           </p>
         </div>
 
@@ -258,11 +259,14 @@
                 {{ project.description }}
               </p>
 
-              <button
+              <a
+                :href= project.location
+                target="_blank"
+                rel="noopener noreferrer"
                 class="text-blue-500 font-medium hover:underline"
               >
                 View Project →
-              </button>
+              </a>
             </div>
           </div>
 
@@ -283,6 +287,8 @@ import { ref } from 'vue'
 import project1 from './assets/img/project-1.png'
 import project2 from './assets/img/project-2.png'
 import project3 from './assets/img/project-3.png'
+
+import cvFile from './assets/pdf/CV.pdf'
 
 const menuOpen = ref(false)
 
@@ -326,43 +332,52 @@ const skills = [
 
 const experience = [
   {
-    title: 'Frontend Developer',
-    date: '2024 - Present',
+    title: 'Bachelor of Science, Computer Software Engineer - First Class Honours',
+    date: 'October 2020 - November 2024',
     description:
-      'Developed responsive web applications and improved UI performance.',
+      'University of Central Lancashire',
   },
   {
-    title: 'UI/UX Designer',
-    date: '2023 - 2024',
+    title: 'BAE - Software Engineering Degree Apprentice',
+    date: 'October 2020 - November 2024',
     description:
-      'Created intuitive interfaces, wireframes, and interactive prototypes.',
+      'Four year degree apprenticeship working with Official data in line with UK security standards. Maintained and managed software requirements, enhanced web applications and wrote clean code.',
   },
   {
-    title: 'BSc Computer Science',
-    date: 'University Name',
+    title: 'BT - Software Engineer',
+    date: 'February 2019 - October 2020',
     description:
-      'Focused on software development, interaction design, and data systems.',
+      'Created impact assessments, prepared and delivered presentation to stakeholders.',
+  },
+  {
+    title: 'BT FurtHER Digital Intensive Program',
+    date: 'November 2018 - February 2019',
+    description:
+      'A four month Computer Software Engineering course ran by Code First Girls in London.',
   },
 ]
 
 const projects = [
   {
-    title: 'Analytics Dashboard',
+    title: 'Country Cars and Vans',
     description:
-      'A modern reporting dashboard with interactive charts and filtering.',
+      'A complete re-design for a car garage who requested a simple and clean single page website.',
     image: project1,
+    location: 'http://www.countrycarsandvansltd.co.uk/',
   },
   {
-    title: 'Portfolio Website',
+    title: 'Geolocation Metadata Extractor',
     description:
-      'A sleek and responsive portfolio built with Vue and Tailwind CSS.',
+      'A tool to extract geolocation metadata from a file.',
     image: project2,
+    location: 'https://github.com/millyhx/Geolocation-Metadata-Extractor',
   },
   {
-    title: 'UI Redesign',
+    title: 'Language Tool',
     description:
-      'A full redesign project focused on accessibility and improved UX.',
+      'A working prototype of a language tool that can be used whilst travelling.',
     image: project3,
+    location: 'https://github.com/millyhx/lingua',
   },
 ]
 
