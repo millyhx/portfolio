@@ -48,7 +48,7 @@
 
           <!-- Left Content -->
           <div>
-            <p class="uppercase tracking-widest text-sm text-blue-500 mb-4">
+            <p class="uppercase tracking-widest text-sm text-purple-500 mb-4">
               Welcome to my portfolio
             </p>
 
@@ -64,7 +64,7 @@
             <div class="flex flex-wrap gap-4">
               <a
                 href="#projects"
-                class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition"
+                class="bg-purple-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition"
               >
                 View Projects
               </a>
@@ -72,7 +72,7 @@
             <a
               :href="cvFile"
               download
-              class="border border-blue-500 text-blue-500 px-6 py-3 rounded-full hover:bg-blue-50 transition"
+              class="border border-purple-500 text-purple-500 px-6 py-3 rounded-full hover:bg-purple-50 transition"
             >
               Download CV
             </a>
@@ -122,22 +122,22 @@
 
         <div class="grid grid-cols-2 gap-6">
           <div class="p-6 bg-gray-50 rounded-2xl shadow-sm">
-            <h4 class="text-4xl font-bold text-blue-500">7+</h4>
+            <h4 class="text-4xl font-bold text-purple-500">7+</h4>
             <p class="text-gray-600 mt-2">Years Experience</p>
           </div>
 
           <div class="p-6 bg-gray-50 rounded-2xl shadow-sm">
-            <h4 class="text-4xl font-bold text-blue-500">10+</h4>
+            <h4 class="text-4xl font-bold text-purple-500">10+</h4>
             <p class="text-gray-600 mt-2">Projects Completed</p>
           </div>
 
           <div class="p-6 bg-gray-50 rounded-2xl shadow-sm">
-            <h4 class="text-4xl font-bold text-blue-500">15+</h4>
+            <h4 class="text-4xl font-bold text-purple-500">15+</h4>
             <p class="text-gray-600 mt-2">Technologies Learned</p>
           </div>
 
           <div class="p-6 bg-gray-50 rounded-2xl shadow-sm">
-            <h4 class="text-4xl font-bold text-blue-500">100%</h4>
+            <h4 class="text-4xl font-bold text-purple-500">100%</h4>
             <p class="text-gray-600 mt-2">Responsive Design</p>
           </div>
         </div>
@@ -157,7 +157,7 @@
             Skills & Expertise
           </h3>
 
-          <p className="text-gray-600 max-w-2xl mx-auto bg-purple-500 text-white px-4 py-2 inline-block">
+          <p className="text-gray-600 max-w-2xl mx-auto bg-green-500 text-white px-4 py-2 inline-block">
             What can I do?
           </p>
         </div>
@@ -191,7 +191,7 @@
         Experience & Education
       </h3>
 
-      <div class="relative border-l-2 border-blue-200 ml-4">
+      <div class="relative border-l-2 border-green-200 ml-4">
 
         <div
           v-for="item in experience"
@@ -199,7 +199,7 @@
           class="mb-12 ml-8 relative"
         >
           <div
-            class="absolute -left-[42px] top-1 w-5 h-5 bg-blue-500 rounded-full border-4 border-white"
+            class="absolute -left-[42px] top-1 w-5 h-5 bg-green-500 rounded-full border-4 border-white"
           ></div>
 
           <h4 class="text-xl font-semibold">
@@ -263,7 +263,7 @@
                 :href= project.location
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-blue-500 font-medium hover:underline"
+                class="text-green-500 font-medium hover:underline"
               >
                 View Project →
               </a>
