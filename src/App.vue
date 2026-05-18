@@ -287,6 +287,7 @@ import { ref } from 'vue'
 import project1 from './assets/img/project-1.png'
 import project2 from './assets/img/project-2.png'
 import project3 from './assets/img/project-3.png'
+import project4 from './assets/img/project-4.png'
 
 import cvFile from './assets/pdf/CV.pdf'
 
@@ -380,10 +381,10 @@ const projects = [
     location: 'https://github.com/millyhx/lingua',
   },
   {
-    title: 'Music App',
+    title: 'Music App (Moonwave)',
     description:
-      'A cosy music app used for background music whilst reading. Features a vinyl player with Jazz music and rain feature.',
-    image: project3,
+      'A music app used for background music whilst reading. Features a vinyl player with Jazz music and rain feature.',
+    image: project4,
     location: 'https://millyhx.github.io/musicapp/',
   },
 ]
