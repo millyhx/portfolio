@@ -288,6 +288,7 @@ import project1 from './assets/img/project-1.png'
 import project2 from './assets/img/project-2.png'
 import project3 from './assets/img/project-3.png'
 import project4 from './assets/img/project-4.png'
+import project5 from './assets/img/project-5.png'
 
 import cvFile from './assets/pdf/CV.pdf'
 
@@ -386,6 +387,13 @@ const projects = [
       'A music app used for background music whilst reading. Features a vinyl player with Jazz music and rain feature.',
     image: project4,
     location: 'https://millyhx.github.io/musicapp/',
+  },
+  {
+    title: 'Cloud Post',
+    description:
+      'A simple web app, where users can write something and let it go in the clouds. Along the lines of get something off your chest...',
+    image: project5,
+    location: 'https://millyhx.github.io/cloudpost/',
   },
 ]
 
