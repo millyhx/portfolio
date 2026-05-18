@@ -379,6 +379,13 @@ const projects = [
     image: project3,
     location: 'https://github.com/millyhx/lingua',
   },
+  {
+    title: 'Music App',
+    description:
+      'A cosy music app used for background music whilst reading. Features a vinyl player with Jazz music and rain feature.',
+    image: project3,
+    location: 'https://millyhx.github.io/musicapp/',
+  },
 ]
 
 </script>
