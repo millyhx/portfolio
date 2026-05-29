@@ -111,7 +111,7 @@
           </h3>
 
           <p class="text-gray-600 leading-relaxed mb-4">
-            I enjoy creating beautiful websites that are accessible to everyone. I am a Software Engineer with a First-Class degree and around seven years of experience across software development, testing, and Agile teams.
+            I enjoy creating beautiful websites that are accessible to everyone. I am a Software Engineer with a First-Class degree and around four years of experience across software development, testing, and Agile teams.
           </p>
 
           <p class="text-gray-600 leading-relaxed">
@@ -122,7 +122,7 @@
 
         <div class="grid grid-cols-2 gap-6">
           <div class="p-6 bg-gray-50 rounded-2xl shadow-sm">
-            <h4 class="text-4xl font-bold text-purple-500">7+</h4>
+            <h4 class="text-4xl font-bold text-purple-500">4+</h4>
             <p class="text-gray-600 mt-2">Years Experience</p>
           </div>
 
