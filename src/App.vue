@@ -5,9 +5,27 @@
     <header class="fixed top-0 w-full bg-white shadow-sm z-50">
       <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
 
-        <h1 class="text-xl font-bold tracking-tight">
-          mdozyurt@outlook.com
-        </h1>
+      <a href="https://www.linkedin.com/in/melisa-o-0a9a3a15b/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="flex items-center gap-2 text-xl font-bold tracking-tight text-blue-600 hover:text-blue-800">
+
+        <!-- LinkedIn SVG Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" 
+            width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 
+                  2.761 2.239 5 5 5h14c2.761 0 5-2.239 
+                  5-5v-14c0-2.761-2.239-5-5-5zm-11 
+                  19h-3v-10h3v10zm-1.5-11.268c-.966 
+                  0-1.75-.79-1.75-1.764s.784-1.764 
+                  1.75-1.764 1.75.79 1.75 
+                  1.764-.784 1.764-1.75 
+                  1.764zm13.5 11.268h-3v-5.604c0-3.368-4-3.113-4 
+                  0v5.604h-3v-10h3v1.765c1.396-2.586 
+                  7-2.777 7 2.476v5.759z"/>
+        </svg>
+      </a>
+
 
         <!-- Desktop Nav -->
         <nav class="hidden md:flex space-x-8 text-sm font-medium">
