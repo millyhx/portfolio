@@ -307,6 +307,8 @@ import project2 from './assets/img/project-2.png'
 import project3 from './assets/img/project-3.png'
 import project4 from './assets/img/project-4.png'
 import project5 from './assets/img/project-5.png'
+import project6 from './assets/img/project-6.png'
+import project7 from './assets/img/project-7.png'
 
 import cvFile from './assets/pdf/CV.pdf'
 
@@ -412,6 +414,20 @@ const projects = [
       'A simple web app, where users can write something and let it go in the clouds. Along the lines of get something off your chest...',
     image: project5,
     location: 'https://millyhx.github.io/cloudpost/',
+  },
+    {
+    title: 'Sprouts Game',
+    description:
+      'An online web application game, where you create a "Sprout", and play minigames to keep it alive.',
+    image: project6,
+    location: 'https://millyhx.github.io/sprouts/',
+  },
+    {
+    title: 'OSINT Username Scanner',
+    description:
+      'Recreating a version of my University dissertation project. JavaFX app that checks where a username exists across the internet and builds a small intelligence profile.',
+    image: project7,
+    location: 'https://github.com/millyhx/osint-username-scanner',
   },
 ]
 
